@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.signInForm {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 15% 30% 55%;
+    text-align: right;
+}
+
+.homeWrapper {
+    padding: 15px;
+}

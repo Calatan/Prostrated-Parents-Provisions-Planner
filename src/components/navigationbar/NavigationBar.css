@@ -1,0 +1,29 @@
+.navigationBarWrapper {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 15% 70% 10% 5%;
+    background-color: gray;
+}
+
+.signIn,
+.signOut {
+    align-self: center;
+    font-style: italic;
+}
+
+.signOut {
+    font-size: 75%;
+    padding-top: 5px;
+}
+
+.logotype,
+.header,
+.signIn,
+.signOut {
+    cursor: pointer;
+}
+
+.profile {
+    align-self: center;    
+}
+

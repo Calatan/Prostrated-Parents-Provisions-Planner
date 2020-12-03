@@ -1,10 +1,16 @@
 import React from 'react';
+import './shared/global/css/Global.css'
+import { Routing } from './routes/Routing';
+import { NavigationBar} from './components/navigationbar/NavigationBar';
+import { UserProvider } from './shared/global/provider/UserProvider'
 
 function App() {
   return (
-    <div>
-      <h1>Planner</h1>
-    </div>
+    <UserProvider>
+      <Routing>
+        <NavigationBar />
+      </Routing>
+    </UserProvider>
   );
 }
 
