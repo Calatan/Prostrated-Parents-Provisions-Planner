@@ -11,6 +11,7 @@ export const NavigationBar = () => {
 
     const logout = () => {
         setAuthenticatedUser()
+        history.push('/')
     }
 
     const displayUserIfAuthenticated = () => {

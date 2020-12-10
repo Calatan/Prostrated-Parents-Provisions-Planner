@@ -3,13 +3,33 @@ body {
     padding: 0;
 }
 
-.signInForm {
-    padding: 15px;
+.homeWrapper {
+    padding: 10px;
+}
+
+.plannerWrapper {
     display: grid;
-    grid-template-columns: 15% 30% 55%;
+    grid-template-columns: 15% 50% 10% 10% 10%;
     text-align: right;
 }
 
-.homeWrapper {
+.dailyWrapper {
+    display: grid;
+    grid-template-columns: 15% 25% 25%;
+    text-align: right;
+}
+
+.newDailyMealButton {
+    background-color: gray;
+}
+
+.signInWrapper {
+    padding: 10px;
+}
+
+.signInForm {
     padding: 15px;
+    display: grid;
+    grid-template-columns: 15% 30% 50%;
+    text-align: right;
 }
